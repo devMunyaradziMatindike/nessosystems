@@ -92,6 +92,14 @@
             -webkit-text-fill-color: white !important;
             transition: background-color 5000s ease-in-out 0s;
         }
+        
+        /* Center dots vertically */
+        .centered-dot {
+            display: inline-flex;
+            align-items: center;
+            vertical-align: middle;
+            line-height: 1;
+        }
     </style>
 </head>
 <body class="antialiased font-sans selection:bg-neon selection:text-white bg-void">
@@ -141,7 +149,7 @@
         <section class="h-screen w-full flex flex-col justify-center items-center text-center px-4 relative">
             <div class="max-w-4xl mx-auto space-y-6 pt-20">
                 <h2 class="text-neon text-xs md:text-sm font-semibold tracking-[0.3em] uppercase opacity-0 animate-fade-in-up" style="animation-delay: 1s;">
-                    Zimbabwe · Innovation & Technology
+                    CONNECT <span class="centered-dot">.</span> BUILD <span class="centered-dot">.</span> TRANSFORM
                 </h2>
                 <h1 class="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-none mix-blend-overlay opacity-0 animate-fade-in-up" style="animation-delay: 1.2s;">
                     SOFTWARE <br> SOLUTIONS <br> BEYOND
